@@ -1,0 +1,208 @@
+.root {
+    height: 768px;
+    width: 1268px;
+    margin: auto;
+    /* border: 1px solid blue; */
+    position: relative;
+    background-color: grey;
+  }
+  * {
+      font-family: 'Gideon Roman', cursive;
+  }
+  .heading h1 {
+    position: absolute;
+    color: rgb(18, 204, 101);
+    left: 20px;
+    font-size: 28px;
+  }
+  /* profile_part */
+  .profile {
+    position: absolute;
+    height: 550px;
+    width: 380px;
+    left: 138px;
+    top: 72px;
+    background-color: rgb(51, 47, 47);
+  }
+  .profile .img1 {
+    width: 237px;
+    left: 69px;
+    top: 81px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .profile .img2 {
+    width: 300px;
+    left: 38px;
+    top: 41px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .bio {
+    top: 345px;
+    position: absolute;
+    left: 109px;
+    text-align: center;
+    line-height: 13px;
+    font-family: sans-serif;
+  }
+  .bio h2 {
+    color: white;
+  }
+  .bio h3 {
+    color: rgb(6, 240, 37);
+  }
+  /* social_icon_part */
+  .social_logo {
+    position: absolute;
+    top: 434px;
+    left: 65px;
+  }
+  .social_logo ul li {
+    color: aliceblue;
+    float: left;
+    list-style-type: none;
+    width: 43px;
+    /* border: 1px solid red; */
+    padding: 5px 9px;
+  }
+  .social_logo ul {
+    margin: 0;
+    padding: 0;
+  }
+  .social_logo ul li i {
+    text-align: center;
+    padding-left: 14px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 50px;
+  }
+  .social_logo ul li i:hover {
+    background-color: rgb(3, 155, 71);
+  }
+  /* profile_description_part */
+  .descrption {
+    position: absolute;
+    height: 373px;
+    width: 450px;
+    left: 558px;
+    top: 164px;
+    background-color: rgb(51, 47, 47);
+    color: white;
+    /* display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap; */
+  }
+  .descrption h3 {
+    position: absolute;
+    left: 47px;
+    top: 7px;
+    font-family: sans-serif;
+    font-size: 23px;
+  }
+  .descrption .table {
+    position: absolute;
+    top: 80px;
+    left: 45px;
+    width: 100%;
+  }
+  .descrption .table tr td {
+    padding: 7px;
+  }
+  .descrption .last_part {
+    position: absolute;
+    top: 280px;
+    padding-left: 2px;
+  }
+  .descrption .last_part ol {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 2px;
+    border-radius: 20px;
+    background-color: rgb(14, 8, 8);
+    font-weight: bold;
+    /* pointer-events: inherit; */
+  }
+  .descrption .last_part ol:hover {
+    background-color: rgb(7, 148, 70);
+  }
+  /* navber_part */
+  .navber {
+    position: absolute;
+  }
+  .navber ul {
+    position: absolute;
+    /* border: 1px solid; */
+    left: 1100px;
+    top: 15px;
+    background-color: springgreen;
+    border-radius: 24px;
+    padding: 0;
+    margin: 0;
+  }
+  .navber ul li {
+    list-style-type: none;
+    padding: 10px 7px;
+  }
+  .navber ul li:nth-child(1) {
+    padding: 6px 10px;  
+  }
+  .navber ul li:nth-child(6) {
+    padding: 6px 7px;
+  }
+  .navber ul li i {
+      color: white;
+  }
+  /* footer_part */
+  .social_logo2 {
+    position: absolute;
+    top: 700px;
+    left: 771px;
+  }
+  .social_logo2 ul li {
+    color: aliceblue;
+    float: left;
+    list-style-type: none;
+    width: 40px;
+    /* border: 1px solid red; */
+    padding: 5px 9px;
+  }
+  .social_logo2 ul {
+    margin: 0;
+    padding: 0;
+  }
+  .social_logo2 ul li i {
+    text-align: center;
+    padding-left: 14px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  .social_logo2 ul li i:hover {
+    background-color: rgb(3, 155, 71);
+  }
+  .footer {
+    top: 700px;
+    position: absolute;
+    left: 130px;
+    color: white;
+    text-transform: capitalize;
+  }
+  .navber2 {
+      position: absolute;
+    }
+    .navber2 ul {
+      position: absolute;
+      left: 1029px;
+      top: 47px;
+      border-radius: 24px;
+      padding: 0;
+      margin: 0;
+    }
+    .navber2 ul li {
+      list-style-type: none;
+      padding: 10px 7px;
+      font-size: 14px;
+      color: white;
+    }
